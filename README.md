@@ -4,7 +4,7 @@
 A sales page built with HTML5 and CSS/Sass following the pre-existing template of the Crônicas Fantásticas website.
 
 
-![Logo](https://cronicasfantasticas.com.br/wp-content/uploads/2021/04/Novo-Logo_Cronicas-Fantasticas_400px_bk.png)
+![Logo](https://cronicasfantasticas.com.br/wp-content/uploads/2021/04/Novo-Logo_Cronicas-Fantasticas_400px_2.png)
 
 
 ## Author
