@@ -1,0 +1,16 @@
+@media (max-width: 1024px){
+    .headerTitle{
+        width: 90%;
+        border-bottom: 0px;
+    }
+}
+
+@media (max-width: 640px){
+    .flex-container{
+        margin-left: 5%;
+    }
+    
+    .item{
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,59 @@
+@import "./variables/colors.scss";
+@import "./variables/fonts.scss";
+
+.headerTitle{
+    grid-column: 1/4;
+    color: $mainColor;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    gap: 20px;
+    padding-left: 0px;
+    border-bottom: $mainColor;
+    border-bottom: 1px solid;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.titleStore{
+    font-family: $mainFont;
+    font-size: 40px;
+}
+
+.rev{
+    font-family: $textFont;
+    font-size: 25px;
+    padding-bottom: 4px;
+    margin-top: -15px;
+}
+
+.flex-container{
+    grid-column: 1/4;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 8%;
+}
+
+.item{
+    max-width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 5px;
+    background-color: $backgroundColor;
+    flex: 1 1 300px;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+    img{
+        width: 70%;
+    }
+}

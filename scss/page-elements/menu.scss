@@ -1,0 +1,32 @@
+@import "./variables/colors.scss";
+@import "./variables/fonts.scss";
+
+.container{
+    display: grid;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+header{
+    grid-column: 1/4;
+    background-color: $secondaryColor;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+    }
+}

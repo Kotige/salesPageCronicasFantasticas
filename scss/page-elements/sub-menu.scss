@@ -1,0 +1,46 @@
+@import "./variables/colors.scss";
+@import "./variables/fonts.scss";
+
+
+.subMenu{
+    grid-column: 1/4;
+    margin-top: 20px;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $subMenuFont;
+    padding: 0 20px 10px 20px ;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid $thirdColor;
+}
+
+.firstDiv{
+    opacity: 0.3;
+    margin-top: -20px;
+    margin-bottom: -25px;
+}
+
+.navItens{
+    cursor: pointer;
+    text-decoration: none;
+    color: $borderColor;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+.itemMenu{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: ease-in-out 0.1s;
+    margin-bottom: -10px;
+    border-bottom: 0px solid $mainColor;
+}
+
+.itemMenu:hover{
+    border-bottom: 2px solid $mainColor;
+}

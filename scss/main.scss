@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import "./page-elements/menu.scss";
+@import "./page-elements/header.scss";
+@import "./page-elements/sub-menu.scss";
+@import "./page-elements/main-content.scss";
+@import "./page-elements/itens-details.scss";
+@import "./page-elements/footer.scss";
+@import "./responsive.scss";
